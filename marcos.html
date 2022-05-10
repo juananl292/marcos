@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #img{
+        flex: content;
+        border: solid;
+        border-color: black;
+        height: 800px;
+        width: 50%;
+        background-image: url('https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen.jpg');
+        margin: auto;
+
+    }
+
+    #img:hover{
+            height: 30vh;
+            width: 30vw;
+            padding: 20px;
+            background-image: url(https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png.webp);
+        }
+
+
+    #texto{
+        background-color: none;
+        width: 90%;
+        margin: auto;
+        padding: 2%;
+        text-align: center;
+
+
+    }
+    
+    #texto:hover{
+        display: flex;
+        background-color: chartreuse;
+        font-family: fantasy;
+        height: 30vh;
+
+    }
+    p:hover{
+        padding: 10px;
+        margin: 10px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-style: oblique;
+        background-color: palegoldenrod;
+    }
+    p::first-letter{
+        font-weight: 200;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    p::after{
+        content: " Realizado por Juan Tortosa";
+        font-style: initial;
+    }
+    p:last-child{
+        color: blue;
+        font-size: xx-large;
+        background-color: bisque;
+    }
+
+
+</style>
+<body>
+    <div id="img" >
+
+    </div>
+    <div id="texto">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis eum quisquam pariatur velit porro labore quod dolorum dolorem ullam! Necessitatibus earum incidunt illo, dolore at ex mollitia dolor unde cum.</p> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, qui enim ipsum animi cum, at molestias facilis, architecto expedita fugit natus fuga vero? Nobis laboriosam, quod vero labore ut molestiae!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi error saepe fugiat, inventore ducimus suscipit, quaerat expedita consequatur, laudantium iure harum vero laborum assumenda ut. Numquam voluptates fugit labore tempore?</p>
+    
+    
+    </div>
+    
+        
+</body>
+</html>
